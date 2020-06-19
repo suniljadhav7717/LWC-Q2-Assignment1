@@ -1,5 +1,5 @@
 public class AccountController {
-    
+    //method to retun list of accounts 
     @AuraEnabled(cacheable=true)
     public static List<Account> getAccountRecords(String accountNamePhrase, Integer numberOfRecords){
       
